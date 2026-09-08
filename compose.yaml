@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: minimart-frontend-app
+    restart: unless-stopped
+
+    ports:
+      - "8080:80"
