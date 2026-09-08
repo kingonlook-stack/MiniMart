@@ -5,3 +5,4 @@ frontend/dist/
 old-backend-backup/
 __pycache__/
 *.pyc
+*.pem
